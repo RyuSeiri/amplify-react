@@ -1,0 +1,145 @@
+
+
+.menuwidth {
+  min-width:320px
+}
+
+.awidth{
+  height:50px;
+  width:70px;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iwidth{
+  position:absolute;
+  top:10px;
+  width:100%;
+  font-size:20pt;
+}
+
+.span1width{
+  position:absolute;
+  top:20px;
+  right:15px;
+  font-size:8pt;
+}
+
+.span2width{
+  position:absolute;
+  top:35px;
+  width:100%;
+  font-size:8pt;
+}
+
+.menu-title-height{
+  height:30px;
+}
+
+.fontsize{
+  font-size:0.8rem;
+}
+
+.context{
+  height:500px;
+}
+
+.iconstyle{
+  font-size:4rem;
+  text-align: center;
+}
+.prevent-event{
+  pointer-events:none;
+}
+
+.download-button{
+  max-width:500px;
+}
+
+.file-container{
+  height:700px;
+}
+
+.file-parent-container{
+  height:90%;
+  background-color: transparent;
+}
+
+.center{
+  text-align: center;
+}
+
+.inputbox-fontsize{
+  font-size:100%;
+}
+
+.message-font{
+  color:red;
+  font-weight:bold;
+}
+
+.data-type-container{
+  max-width:500px;
+}
+
+.arrow{
+  float: right;
+  font-size: 1.5em;
+}
+
+.arrow-middel-container{
+  padding-top:auto;
+  padding-right:auto;
+  padding-bottom:auto;
+}
+
+.data-list-table{
+  top:1em;
+  position: relative;
+  margin:0;
+  border-collapse:collapse;
+  table-layout:fixed;
+  word-break:break-all;
+}
+
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+
+.wrap {
+  white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+@media screen and (min-width:768px){
+    /*　画面サイズが768px以上の場合読み込む　*/
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      min-width: 320px;
+    }
+    h1 { font-size:40px;}
+    .message { font-size:20px;}
+}
+
+
+
+@media screen and (max-width:767px) {
+    /*　画面サイズが767px以下の場合読み込む　*/
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      min-width: 300px;
+    }
+    h1 { font-size:24px;}
+    .message { font-size:15px;}
+}
+
